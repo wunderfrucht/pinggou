@@ -1,0 +1,20 @@
+[package]
+name = "pinggou"
+version = "0.1.0"
+edition = "2021"
+authors = ["avrabe <ralf_beier@me.com>"]
+description = "Rust interface for OCI distribution specification"
+documentation = "https://docs.rs/pinggou"
+homepage = "https://github.com/wunderfrucht/pinggou"
+repository = "https://github.com/wunderfrucht/pinggou"
+keywords = ["hyper", "oci", "distribution"]
+license = "MIT"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dev-dependencies]
+skeptic = "0.13"
+
+[build-dependencies]
+skeptic = "0.13"
